@@ -21,7 +21,7 @@ st.set_page_config(
 model = pickle.load(
 
     open(
-        "../models/random_forest_regressor.pkl",
+        "models/random_forest_regressor.pkl",
         "rb"
     )
 
